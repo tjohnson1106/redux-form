@@ -5,8 +5,10 @@ import "./App.css";
 import { reduxForm, Field } from "redux-form";
 
 let SignInForm = props => {
+  const { handleSubmit } = props;
+
   return (
-    <form className="form">
+    <form onSubmit={handleSubmit} className="form">
       <div className="field">
         <div className="control">
           <label className="label">First Name</label>
@@ -140,6 +142,10 @@ SignInForm = reduxForm({
 })(SignInForm);
 
 class App extends Component {
+  handleSignIn = values => {
+    console.log(values);
+  };
+
   render() {
     return (
       <div className="App">
