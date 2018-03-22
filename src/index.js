@@ -15,9 +15,10 @@ const rootReducer = combineReducers({
 const store = createStore(rootReducer);
 
 ReactDOM.render(
-  <Provider>
+  <Provider store={store}>
     <App />
   </Provider>,
+
   document.getElementById("root")
 );
 registerServiceWorker();

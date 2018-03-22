@@ -135,6 +135,10 @@ let SignInForm = props => {
   );
 };
 
+SignInForm = reduxForm({
+  form: "signIn"
+})(SignInForm);
+
 class App extends Component {
   render() {
     return (
