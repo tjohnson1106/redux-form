@@ -92,8 +92,26 @@ let SignInForm = props => {
               component="input"
               type="radio"
               value="female"
-            />{" "}
+            />
             Female
+          </label>
+          <label className="radio">
+            <Field
+              name="gender"
+              component="input"
+              type="radio"
+              value="transgendered"
+            />
+            Transgendered
+          </label>
+          <label className="radio">
+            <Field
+              name="gender"
+              component="input"
+              type="radio"
+              value="other"
+            />
+            Other
           </label>
         </div>
       </div>
