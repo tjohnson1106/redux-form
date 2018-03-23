@@ -156,7 +156,7 @@ const validate = val => {
   return errors;
 };
 
-const renderFields = ({
+const renderField = ({
   input,
   label,
   type,
