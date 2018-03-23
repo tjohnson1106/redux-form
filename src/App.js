@@ -144,7 +144,7 @@ const validate = val => {
     errors.email = "Required";
   } else if (!/^.+@.+$/i.test(val.email)) {
     console.log("email is invalid");
-    errors.email = "Invaldi email address";
+    errors.email = "Invalid email address";
   }
   if (!val.age) {
     errors.age = "Required";
@@ -157,7 +157,8 @@ const validate = val => {
 };
 
 SignInForm = reduxForm({
-  form: "signIn"
+  form: "signIn",
+  validate
 })(SignInForm);
 
 class App extends Component {
