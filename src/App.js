@@ -47,7 +47,7 @@ let SignInForm = props => {
       </div>
       <div className="field">
         <div className="control">
-          <label className="label">Proficiency</label>https://www.google.com/
+          <label className="label">Proficiency</label>
           <div className="select">
             <Field
               className="input"
@@ -61,7 +61,7 @@ let SignInForm = props => {
             </Field>
           </div>
         </div>
-      </div>https://www.google.com/
+      </div>
       <div className="field">
         <div className="control">
           <label className="label">Age</label>
@@ -211,7 +211,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Redux Form</h1>
+          <h1 className="App-title">Bracket Factory LLC</h1>
         </header>
         <div className="container">
           <p className="App-intro">Contact Form</p>
