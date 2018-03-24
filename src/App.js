@@ -211,7 +211,9 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar fixedTop="true" className="navbar">
-          <h1 className="App-title">Bracket Factory LLC</h1>
+          <h1 className="App-title">
+            Redux Form Example by Bracket Factory
+          </h1>
         </Navbar>
         <div className="container">
           <p className="App-intro">Contact Form</p>
